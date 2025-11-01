@@ -1,47 +1,65 @@
 # Chunk Viz
 
-This is a tool to visualize how different text splitters chunk up text
+This is a tool to visualize how different text splitters chunk up text.
 
 ![ChunkViz Preview](public/ChunkVizPreview.png)
 
-
-[See the demo](https://chunkviz.up.railway.app/)
-
+[See the demo](https://sanmeet007.github.io/chunk-viz/)
 [Explainer Video](https://twitter.com/GregKamradt/status/1733208049513611339)
 
-## Installation and Running Instructions
+---
+
+## 🧩 About
+
+**Chunk Viz** helps users understand how various text-splitting algorithms break down long passages into chunks.  
+Originally created by [**Greg Kamradt**](https://twitter.com/GregKamradt), this project has been adapted and deployed for enhanced accessibility.
+
+> 📦 Deployed and maintained by [**Sanmeet Singh**](https://github.com/Sanmeet007)  
+> (based on the original work by Greg Kamradt)
+
+---
+
+## ⚙️ Installation and Running Instructions
 
 Follow these steps to download and run the application on your local machine.
 
 ### Prerequisites
-
-Before you begin, ensure you have [Node.js](https://nodejs.org/) installed on your system.
+Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
 ### Step 1: Clone the Repository
-
-First, clone the repository to your local machine using the following command:
-`git clone https://github.com/gkamradt/ChunkViz`
+```bash
+git clone https://github.com/gkamradt/ChunkViz
+````
 
 ### Step 2: Install Dependencies
 
-Navigate to the cloned repository's directory and install the necessary dependencies:
-
-`cd ChunkViz`
-
-`npm install`
-
+```bash
+cd ChunkViz
+npm install
+```
 
 ### Step 3: Build the Application
 
-`npm run build`
+```bash
+npm run build
+```
 
-### Step 4: Run locally
+### Step 4: Run Locally
 
-`npm start`
+```bash
+npm start
+```
 
+---
 
-Made with ❤️ by [Greg Kamradt](https://twitter.com/GregKamradt)
+## ❤️ Credits
 
-## License
+Made with ❤️ by [**Greg Kamradt**](https://twitter.com/GregKamradt)
+Deployed & maintained by [**Sanmeet Singh**](https://github.com/Sanmeet007)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details. Use of this software requires attribution to the original author and project, as detailed in the license.ChC
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE.txt) file for details.
+Use of this software requires attribution to the original author and contributors as specified in the license.
